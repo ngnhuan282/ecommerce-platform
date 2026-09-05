@@ -103,6 +103,12 @@ public enum ErrorCode {
             HttpStatus.BAD_REQUEST
     ),
 
+    ROLE_NOT_FOUND(
+            1016,
+            "Role not found",
+            HttpStatus.NOT_FOUND
+    ),
+
     INVALID_EMAIL(
             1100,
             "Invalid email",
